@@ -125,7 +125,7 @@ public class BotService extends TelegramLongPollingBot {
     }
 
     private void start(Long chatId, String firstName) throws TelegramApiException {
-        String message = "Assalomu alaykum " + firstName + " sizga qanday yordam kerak";
+        String message = "Assalomu alaykum " + firstName + " sizga qanday yordam kerak!!!";
         sendPhoneNumberRequest(chatId.toString(), message);
     }
 
